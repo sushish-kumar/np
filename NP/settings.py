@@ -25,7 +25,7 @@ SECRET_KEY = 'ivj2nwdhabo25f7x*^_n8*-gw+%_dg0=2ggh%5z_r*%c7av3&*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mynavprayas.herokuapp.com']
 
 
 # Application definition
@@ -122,7 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = 'static/'
+STATIC_ROOT = 'nstatic/'
 LOGIN_REDIRECT_URL = 'index'
 LOGIN_URL = 'login'
 
